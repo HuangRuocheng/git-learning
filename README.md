@@ -20,6 +20,7 @@ This is repository where I learn git
 2. Branches
    * used to work on different versions of a repository at one time
    * one branch named ``master`` is considered to be the definitive branch
+   * anything in ``master`` should always be deployable
    * other branches are used to experiment and make edits before committing them to ``master``
    * when you create a branch off the ``master`` branch, you are making a copy, or a snapshot, of the ``master`` as it was at that point in time, and you can pull in others' updates on ``master`` afterwards.
    * when the change is ready, you can merge your branches into ``master``
