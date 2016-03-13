@@ -31,3 +31,9 @@ This is repository where I learn git
    * when you open a *pull request*, you are proposing your changes and requesing that someone review and pull in your contribution and merge them into their branch
    * the changes, addtions and subtractions, are shown in red and green
    * when the content is merged into ``master``, the branch can be deleted
+
+
+### git guide (notes from websites)
+* some websites I learned: [git-easy-guide](http://www.runoob.com/manual/git-guide/) 
+              [5-minutes-git](http://www.runoob.com/w3cnote/git-five-minutes-tutorial.html) 
+              [git-guide](http://www.runoob.com/w3cnote/git-guide.html)
