@@ -4,9 +4,9 @@ This is repository where I learn git
 
 ### Markdown language
 * an easy-to-read, easy-to-write format for writing for the web
-* some descriptions: [创始人John_Gruber](http://daringfireball.net/projects/markdown/syntax) 
+* some descriptions: [github版](https://help.github.com/articles/basic-writing-and-formatting-syntax/) 
+                     [创始人John_Gruber](http://daringfireball.net/projects/markdown/syntax) 
                      [中文版](http://wowubuntu.com/markdown/index.html) 
-                     [简书版](http://www.jianshu.com/p/1e402922ee32/) 
                      [markdown+R](http://www.yangzhiping.com/tech/r-markdown-knitr.html)
 
 
@@ -23,6 +23,10 @@ This is repository where I learn git
    * other branches are used to experiment and make edits before committing them to ``master``
    * when you create a branch off the ``master`` branch, you are making a copy, or a snapshot, of the ``master`` as it was at that point in time, and you can pull in others' updates on ``master`` afterwards.
    * when the change is ready, you can merge your branches into ``master``
-3. Make and Commit changes
-   * *commits* are saved changes
-   * each commit has an associated *commit message*, which explains why a particular change was made
+3. Make and Commit Changes
+   * **commits** are saved changes
+   * each commit has an associated **commit message**, which explains why a particular change was made
+4. Open and Merge a Pull Request
+   * when you open a *pull request*, you are proposing your changes and requesing that someone review and pull in your contribution and merge them into their branch
+   * the changes, addtions and subtractions, are shown in red and green
+   * when the content is merged into ``master``, the branch can be deleted
