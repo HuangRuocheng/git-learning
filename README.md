@@ -37,3 +37,10 @@ This is repository where I learn git
 * some websites I learned: [git-easy-guide](http://www.runoob.com/manual/git-guide/) 
               [5-minutes-git](http://www.runoob.com/w3cnote/git-five-minutes-tutorial.html) 
               [git-guide](http://www.runoob.com/w3cnote/git-guide.html)
+              
+* git ssh-key 验证: 
+   * 生成本地密钥:
+         ``$ ssh-keygen -t rsa -C "youremail@email.com"``
+   * 进入``~/.ssh/id_rsa.pub``, 复制该密钥, 粘贴至github帐户配置中
+   * 如下代码验证成功即可:
+         ``$ ssh -T git@github.com``
