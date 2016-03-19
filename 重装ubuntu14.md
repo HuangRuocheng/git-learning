@@ -25,10 +25,10 @@ ThinkPad的`Bios`引导设置是`F12`，注意也许有需要加上`Fn`键。开
 ###3. 无线驱动
 我的电脑是ThinkPad E430c，无线网卡是BCM43142，根据ubuntu中文论坛中的一个[帖子](http://forum.ubuntu.org.cn/viewtopic.php?t=461389)，可以这样安装驱动
 	
-	```shell
-         sudo apt-get update
-         sudo apt-get install --reinstall bcmwl-kernel-source 
-	```
+```shell
+sudo apt-get update
+sudo apt-get install --reinstall bcmwl-kernel-source 
+```
 
 如果不`update`的话，有可能出现软件包未经验证的情况。
 
@@ -42,15 +42,16 @@ Linux下的skype只更新到4.3版本，之后便没有更新了，安装方式�
       1. remove old skype and .skype folder:
 	
 	```shell
-	    sudo apt-get remove skype skype-bin
-	    rm -rf ~/.skype
+	sudo apt-get remove skype skype-bin
+	rm -rf ~/.skype
 	```
+	
       2. Open “Software & Updates” and enable Canonical partners(there are 2) repository under Other Software tab
       3. run the commands below to install skype:
 	
 	```shell
-          sudo apt-get update
-          sudo apt-get install skype
+        sudo apt-get update
+        sudo apt-get install skype
 	```
 
 2016年2月以后，Linux版skype初次进行小组通话会议时，可能会被阻止并提示更新，不过没有关系，再拨打一次，或者重启skype就没有这个问题了
@@ -70,5 +71,5 @@ Linux下的skype只更新到4.3版本，之后便没有更新了，安装方式�
 git安装非常简单
 	
 	```shell
-          $sudo apt-get install git
+        $sudo apt-get install git
 	```
