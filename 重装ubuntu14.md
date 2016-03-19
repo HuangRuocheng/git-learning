@@ -39,15 +39,15 @@ sudo apt-get install --reinstall bcmwl-kernel-source
 
 ###5. 安装skype
 Linux下的skype只更新到4.3版本，之后便没有更新了，安装方式参考该[英文网站](http://ubuntuhandbook.org/index.php/2014/06/skype-4-3-install-in-ubuntu-1404/)
-      * remove old skype and .skype folder:
+* remove old skype and .skype folder:
 	
 ```shell
 sudo apt-get remove skype skype-bin
 rm -rf ~/.skype
 ```
 	
-      * Open “Software & Updates” and enable Canonical partners(there are 2) repository under Other Software tab
-      * run the commands below to install skype:
+* Open “Software & Updates” and enable Canonical partners(there are 2) repository under Other Software tab
+* run the commands below to install skype:
 	
 ```shell
 sudo apt-get update
