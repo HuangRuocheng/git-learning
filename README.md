@@ -46,3 +46,8 @@ This is repository where I learn git
    * ssh-key验证成功后即可在本地利用git提交或合并修改内容
    
 * commonly used Git command lines are summarized in [Git Cheat Sheet](https://github.com/HuangRuocheng/git-learning/blob/master/reference-files/).
+   * `git clone [server-repo]`
+   * `git add/rm` -> `git commit -m "comments"` -> `git push [alias] [local-branch]:[server-branch]`
+   * `git branch [new-branch]` -> `git checkout [new-branch]` -> editing files in new-branch -> `git checkout [old-branch]` -> `git merge [new-branch]` -> `git branch -d [new-branch]`
+   * `git push [alias] :[server-branch] ##delete server branch`
+   * `git pull???`
