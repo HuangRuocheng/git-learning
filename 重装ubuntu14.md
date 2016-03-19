@@ -41,18 +41,18 @@ sudo apt-get install --reinstall bcmwl-kernel-source
 Linux下的skype只更新到4.3版本，之后便没有更新了，安装方式参考该[英文网站](http://ubuntuhandbook.org/index.php/2014/06/skype-4-3-install-in-ubuntu-1404/)
       1. remove old skype and .skype folder:
 	
-	```shell
-	sudo apt-get remove skype skype-bin
-	rm -rf ~/.skype
-	```
+        ```shell
+        sudo apt-get remove skype skype-bin
+        rm -rf ~/.skype
+        ```
 	
       2. Open “Software & Updates” and enable Canonical partners(there are 2) repository under Other Software tab
       3. run the commands below to install skype:
 	
-	```shell
-        sudo apt-get update
-        sudo apt-get install skype
-	```
+```shell
+sudo apt-get update
+sudo apt-get install skype
+```
 
 2016年2月以后，Linux版skype初次进行小组通话会议时，可能会被阻止并提示更新，不过没有关系，再拨打一次，或者重启skype就没有这个问题了
 
