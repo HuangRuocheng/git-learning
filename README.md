@@ -45,4 +45,4 @@ This is repository where I learn git
    * 进入``~/.ssh/id_rsa.pub``, 复制该密钥, 粘贴至github帐户配置中
    * ssh-key验证成功后即可在本地利用git提交或合并修改内容
    
-* commonly used Git command lines are summarized in Git Cheat Sheet.
+* commonly used Git command lines are summarized in [Git Cheat Sheet](https://github.com/HuangRuocheng/git-learning/blob/master/reference-files/github-git-cheat-sheet.pdf).
