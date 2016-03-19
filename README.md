@@ -8,6 +8,8 @@ This is repository where I learn git
                      [创始人John_Gruber](http://daringfireball.net/projects/markdown/syntax) 
                      [中文版](http://wowubuntu.com/markdown/index.html) 
                      [markdown+R](http://www.yangzhiping.com/tech/r-markdown-knitr.html)
+* It can be easily converted to html, pdf, doc and so on.
+* 更好的学习办法是直接读各类范本文件  by [阳志平](http://www.yangzhiping.com/tech/r-markdown-knitr.html)
 
 
 ### github (notes from [hello-world_guide](https://guides.github.com/activities/hello-world/))
@@ -44,3 +46,6 @@ This is repository where I learn git
    * 进入``~/.ssh/id_rsa.pub``, 复制该密钥, 粘贴至github帐户配置中
    * 如下代码验证成功即可:
          ``$ ssh -T git@github.com``
+   * ssh-key验证成功后即可在本地利用git提交或合并修改内容
+   
+* commonly used Git command lines are summarized in Git Cheat Sheet.
