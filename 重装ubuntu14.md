@@ -24,6 +24,7 @@ ThinkPad的`Bios`引导设置是`F12`，注意也许有需要加上`Fn`键。开
   
 ###3. 无线驱动
 我的电脑是ThinkPad E430c，无线网卡是BCM43142，根据ubuntu中文论坛中的一个[帖子](http://forum.ubuntu.org.cn/viewtopic.php?t=461389)，可以这样安装驱动
+	
 	```shell
          sudo apt-get update
          sudo apt-get install --reinstall bcmwl-kernel-source 
@@ -31,7 +32,7 @@ ThinkPad的`Bios`引导设置是`F12`，注意也许有需要加上`Fn`键。开
 
 如果不`update`的话，有可能出现软件包未经验证的情况。
 
-另外我之前是下载了一个`hybrid_wireless_driver`，其中的驱动按照说明安装后也是能用的，现在Broadcom官网貌似没有他了，把他上传至[reference-files](https://github.com/HuangRuocheng/git-learning/tree/master/reference-files)保存一下。
+另外我之前下载了一个`hybrid_wireless_driver`，其中的驱动按照说明安装后也是能用的，现在Broadcom官网貌似没有他了，把他上传至[reference-files](https://github.com/HuangRuocheng/git-learning/tree/master/reference-files)保存一下。
   
 ###4. 选取中文输入法
 我选择了搜狗输入法，通过官网可以下载deb安装包，双击即可安装，注销重新登录就能使用。
@@ -39,12 +40,14 @@ ThinkPad的`Bios`引导设置是`F12`，注意也许有需要加上`Fn`键。开
 ###5. 安装skype
 Linux下的skype只更新到4.3版本，之后便没有更新了，安装方式参考该[英文网站](http://ubuntuhandbook.org/index.php/2014/06/skype-4-3-install-in-ubuntu-1404/)
       1. remove old skype and .skype folder:
-	 ```shell
+	
+	```shell
 	    sudo apt-get remove skype skype-bin
 	    rm -rf ~/.skype
-	 ```
+	```
       2. Open “Software & Updates” and enable Canonical partners(there are 2) repository under Other Software tab
       3. run the commands below to install skype:
+	
 	```shell
           sudo apt-get update
           sudo apt-get install skype
@@ -55,7 +58,7 @@ Linux下的skype只更新到4.3版本，之后便没有更新了，安装方式�
 ###6. 安装virturalbox
 从Oracle VM VirtualBox官网即可下载deb安装包，双击即可安装
 
-通过`新建`->...->`使用已有的虚拟硬盘文件`即可使用原有虚拟系统，参考了[百度知道](http://jingyan.baidu.com/article/95c9d20da33a5fec4e7561d4.html)
+通过`新建`->...->`使用已有的虚拟硬盘文件`即可使用原有虚拟系统，参考[百度知道](http://jingyan.baidu.com/article/95c9d20da33a5fec4e7561d4.html)
 
 ###7. 安装Rstudio
 从Rstudio官网即可下载安装包
@@ -65,6 +68,7 @@ Linux下的skype只更新到4.3版本，之后便没有更新了，安装方式�
 
 ###8. 安装git
 git安装非常简单
+	
 	```shell
           $sudo apt-get install git
 	```
