@@ -62,6 +62,8 @@ sudo apt-get install skype
 
 通过`新建`->...->`使用已有的虚拟硬盘文件`即可使用原有虚拟系统，参考[百度知道](http://jingyan.baidu.com/article/95c9d20da33a5fec4e7561d4.html)
 
+* 有天启动virtualbox突然遇到如下错误：`Failed to open a session for the virtual machine`以及`Kernel driver not installed (rc=-1908)`，这时只需重装最新版本的virturalbox即可，无需更新内核，参考自[博文](http://thenubbyadmin.com/2011/03/03/solving-the-error-the-virtualbox-linux-kernel-driver-vboxdrv-is-either-not-loaded-or-there-is-a-permission-problem-with-devvboxdrv-on-fedora-14/)
+
 ###7. 安装Rstudio
 从Rstudio官网即可下载安装包
   
